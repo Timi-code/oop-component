@@ -1,0 +1,54 @@
+#boxContent {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.box .box-close {
+    position: absolute;
+    top: 4px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.box .box-content {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+}
+
+.box .footer {
+    display: flex;
+    justify-content: space-around;
+    height: 24px;
+    padding: 10px;
+}
+
+.box .footer .box-btn {
+    width: 40px;
+    text-align: center;
+    background-color: #999;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.box .footer .red-btn {
+    color: red;
+}
+
+.box .footer .yellow-btn {
+    color: yellow;
+}
+
+.box .footer .blue-btn {
+    color: blue;
+}
